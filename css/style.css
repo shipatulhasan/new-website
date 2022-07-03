@@ -1,0 +1,36 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.col-2{
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+.card{
+    margin: 10px;
+    padding:20px;
+    background-color: #F03D68;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    -webkit-box-shadow: 5px 5px 4px 0px #B8B8B8; 
+    box-shadow: 5px 5px 4px 0px #B8B8B8;
+    
+}
+.card.syan{
+    background-color: #17A9B6;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
